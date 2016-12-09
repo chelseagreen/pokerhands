@@ -17,10 +17,6 @@ export class Hand {
     hand: string;
     sortedCardList: any = [];
 
-    faceCards: any = {
-        "A": 14
-    };
-
     constructor(hand: string) {
         this.hand = hand;
         this.sortCards();
